@@ -1,0 +1,8 @@
+# SQLite temporäre Dateien
+*.db-journal
+*.db-wal
+*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
