@@ -20,6 +20,21 @@ Persönliches Referenzdokument für Bewerbungen, LinkedIn und Vorstellungsgespr�
 
 > In einem eigenständigen SQL-Projekt habe ich eine relationale Datenbank mit mehrstufigen JOINs, CTEs und Window Functions analysiert, um konkrete Vertriebskennzahlen und Handlungsempfehlungen abzuleiten – bewusst ohne den Umweg über Python, um meine SQL-Kenntnisse direkt zu zeigen.
 
+### Wie und wo Links im Anschreiben platzieren
+
+Nicht in den Fließtext einstreuen – wirkt schnell wie eine Linkliste. Stattdessen:
+
+1. **Im Kontaktdaten-Block oben (Briefkopf)**, neben Adresse/Telefon/E-Mail, das GitHub-**Profil** verlinken (nicht einzelne Repos):
+   ```
+   Markus Landwehr
+   [Adresse]
+   [Telefon] · [E-Mail]
+   GitHub: github.com/Sukram-ux
+   ```
+2. **Im Fließtext** beim Erwähnen des Projekts keinen rohen Link setzen, sondern sprachlich darauf verweisen: *"...Details dazu finden Sie auf meinem GitHub-Profil."*
+3. **Ausnahme, wenn beide Projekte (dieses und das Online-Retail-Projekt) genannt werden sollen:** kurz vor der Grußformel eine kompakte Referenzzeile:
+   > Beispiele meiner Arbeit: github.com/Sukram-ux/online-retail-customer-analyse · github.com/Sukram-ux/music-store-sql-sales-analyse
+
 ---
 
 ## Kernaussagen für Vorstellungsgespräche (ehrlich, aber überzeugend)
