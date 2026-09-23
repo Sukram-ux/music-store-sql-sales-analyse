@@ -5,7 +5,7 @@ Persönliches Referenzdokument für Bewerbungen, LinkedIn und Vorstellungsgespr�
 ## Für den Lebenslauf (kurz, 3–4 Zeilen)
 
 > **Vertriebsanalyse Musik-Online-Shop (Privates Portfolio-Projekt)**
-> SQL (SQLite) | github.com/[dein-username]/[repo-name]
+> SQL (SQLite) | github.com/Sukram-ux/music-store-sql-sales-analyse
 > SQL-basierte Analyse einer relationalen Datenbank (11 verknüpfte Tabellen) mit JOINs, CTEs und Window Functions; identifizierte, dass 6 von 25 Produktgenres 81 % des Umsatzes erwirtschaften. 9 dokumentierte SQL-Abfragen und 3 datenbasierte Handlungsempfehlungen für das Sales-Management entwickelt.
 
 ## Für LinkedIn / Portfolio-Website (ausführlicher)
