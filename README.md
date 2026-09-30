@@ -36,6 +36,12 @@ Alle Analysen wurden als dokumentierte SQL-Abfragen umgesetzt (Tool: [DB Browser
 | [`sql/08_kumulierter_umsatz_genre.sql`](sql/08_kumulierter_umsatz_genre.sql) | Kumulierter Umsatzanteil je Genre (laufende Summe) |
 | [`sql/09_durchschnittlicher_bestellwert.sql`](sql/09_durchschnittlicher_bestellwert.sql) | Durchschnittlicher Bestellwert (Subquery) |
 
+## Dashboard
+
+![Vertriebsdashboard](reports/dashboard.png)
+
+Interaktive Ansicht: [`reports/dashboard.html`](reports/dashboard.html) (nach dem Klonen im Browser öffnen). Das Dashboard fasst Kennzahlen, Genre-Pareto, Umsatzverlauf, Top-Länder, Top-Kunden und Mitarbeiter-Performance zusammen und wird per `python reports/build_dashboard.py` direkt aus `data/chinook.db` erzeugt (nur Python-Standardbibliothek).
+
 ## Wichtigste Erkenntnisse
 
 - **Starkes Pareto-Muster bei Genres:** Nur 6 von ca. 25 Genres (Rock, Latin, Metal, Alternative & Punk, TV Shows, Jazz) erwirtschaften **80,9 %** des Gesamtumsatzes. Rock allein macht 35,5 % aus.
@@ -61,8 +67,10 @@ Alle Analysen wurden als dokumentierte SQL-Abfragen umgesetzt (Tool: [DB Browser
 ├── docs/
 │   └── PROBLEM_STATEMENT.md   # Business-Kontext, Leitfragen, Scope
 ├── sql/                       # Dokumentierte SQL-Abfragen (01-09)
-├── notebooks/                 # (optional, für weiterführende Auswertungen)
-├── reports/                   # (optional, für Dashboard/Exporte)
+├── reports/
+│   ├── build_dashboard.py     # erzeugt das Dashboard aus der SQLite-DB
+│   ├── dashboard.html         # Dashboard (eine Datei, ohne externe Abhängigkeiten)
+│   └── dashboard.png          # Vorschau für das README
 └── README.md
 ```
 
@@ -71,6 +79,7 @@ Alle Analysen wurden als dokumentierte SQL-Abfragen umgesetzt (Tool: [DB Browser
 1. [DB Browser for SQLite](https://sqlitebrowser.org/) installieren (kostenlos)
 2. `data/chinook.db` in DB Browser öffnen
 3. Die Abfragen aus `sql/` im Tab "SQL ausführen" nacheinander (01 bis 09) ausführen
+4. Optional: Dashboard neu erzeugen mit `python reports/build_dashboard.py`
 
 ## Einschränkungen (Limitations)
 
