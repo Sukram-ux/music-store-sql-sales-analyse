@@ -40,7 +40,7 @@ Alle Analysen wurden als dokumentierte SQL-Abfragen umgesetzt (Tool: [DB Browser
 
 ![Vertriebsdashboard](reports/dashboard.png)
 
-Interaktive Ansicht: [`reports/dashboard.html`](reports/dashboard.html) (nach dem Klonen im Browser öffnen). Das Dashboard fasst Kennzahlen, Genre-Pareto, Umsatzverlauf, Top-Länder, Top-Kunden und Mitarbeiter-Performance zusammen und wird per `python reports/build_dashboard.py` direkt aus `data/chinook.db` erzeugt (nur Python-Standardbibliothek).
+**[Dashboard live ansehen](https://sukram-ux.github.io/music-store-sql-sales-analyse/reports/dashboard.html)** (GitHub Pages). Datei im Repo: [`reports/dashboard.html`](reports/dashboard.html). Das Dashboard fasst Kennzahlen, Genre-Pareto, Umsatzverlauf, Top-Länder, Top-Kunden und Mitarbeiter-Performance zusammen und wird per `python reports/build_dashboard.py` direkt aus `data/chinook.db` erzeugt (nur Python-Standardbibliothek).
 
 ## Wichtigste Erkenntnisse
 
